@@ -1,0 +1,40 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! What can I do for you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Take care"],
+        "responses": ["Goodbye! Stay healthy!", "See you soon!", "Take care and stay safe!"]
+      },
+      {
+        "tag": "symptom_check",
+        "patterns": ["I have a headache", "I'm feeling feverish", "I have a sore throat", "I'm coughing a lot"],
+        "responses": ["I'm sorry to hear that. Do you have any other symptoms?", "You might need some rest and hydration. If symptoms persist, consult a doctor."]
+      },
+      {
+        "tag": "appointment_booking",
+        "patterns": ["I need to book an appointment", "Can I see a doctor?", "Schedule a check-up for me"],
+        "responses": ["Sure, I can help with that. What date and time would you prefer?", "Do you have a preferred doctor or specialty?"]
+      },
+      {
+        "tag": "general_health_advice",
+        "patterns": ["How can I stay healthy?", "Give me some health tips", "How do I boost my immunity?"],
+        "responses": ["Maintain a balanced diet, exercise regularly, and stay hydrated.", "Make sure to get enough sleep and manage stress effectively."]
+      },
+      {
+        "tag": "medication_inquiry",
+        "patterns": ["Can I take paracetamol for a fever?", "What are the side effects of ibuprofen?"],
+        "responses": ["Paracetamol can help reduce fever, but follow the dosage instructions carefully.", "Ibuprofen may cause stomach irritation in some cases. Consult a doctor for proper guidance."]
+      },
+      {
+        "tag": "emergency",
+        "patterns": ["I have chest pain", "I can't breathe properly", "I'm feeling dizzy and weak"],
+        "responses": ["This sounds serious. Please seek immediate medical attention or call emergency services."]
+      }
+    ]
+  }
+  
